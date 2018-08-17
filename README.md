@@ -1,6 +1,11 @@
 <span align="center">
 
+![Simple Columns](./assets/preview.png)
+
 # Simple Columns - 12-column layout framework
+
+[![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
+
 
 </span>
 
@@ -12,6 +17,8 @@ A simple 12-column framework utalizing CSS grid, built with a focus on keeping t
 * Infinite nesting
 
 ## Installation
+
+[Download simple.css](https://raw.githubusercontent.com/arronhunt/simple-columns/master/src/simple.css)
 
 ```html
 <link rel="stylesheet" type="text/css" href="css/simple.css" />
