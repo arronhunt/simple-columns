@@ -6,10 +6,10 @@
 
 A simple 12-column framework utalizing CSS grid, built with a focus on keeping the syntax simple and readable. 
 
-* Fully responsive
 * Simple syntax powered by responsive modifiers
-* Infinite nesting
 * Pure CSS, no precomiling or other tools needed.
+* Fully responsive
+* Infinite nesting
 
 ## Installation
 
