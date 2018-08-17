@@ -4,7 +4,7 @@
 
 # Simple Columns - 12-column layout framework
 
-[![MIT Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
 
 
 </span>
@@ -12,7 +12,7 @@
 A simple 12-column framework utilizing CSS grid, built with a focus on keeping the syntax simple and readable. 
 
 * Simple syntax powered by responsive modifiers
-* Pure CSS, no precomiling or other tools needed.
+* Pure CSS, no precompiling or other tools needed.
 * Fully responsive
 * Infinite nesting
 
@@ -45,7 +45,7 @@ Class | Usage | Accepts modifiers
 
 ### Column spans
 
-Elements can span multipl columns using the `.col-{n}` class
+Elements can span multiple columns using the `.col-{n}` class
 
 ```html
 <div class='col-row'>
@@ -57,7 +57,7 @@ Elements can span multipl columns using the `.col-{n}` class
 
 ### Responsive Modifiers
 
-Column sizes and placement can update based on viewport size using size modifiers. The following modifiers can be appanded to any `.col-` class to change based on browser size.
+Column sizes and placement can update based on viewport size using size modifiers. The following modifiers can be appended to any `.col-` class to change based on browser size.
 
 Mobile | Tablet | Desktop | Desktop HD
 ----|----|----|----
