@@ -9,7 +9,7 @@
 
 </span>
 
-A simple 12-column framework utalizing CSS grid, built with a focus on keeping the syntax simple and readable. 
+A simple 12-column framework utilizing CSS grid, built with a focus on keeping the syntax simple and readable. 
 
 * Simple syntax powered by responsive modifiers
 * Pure CSS, no precomiling or other tools needed.
