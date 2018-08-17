@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../src/simple.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+    .col-row > * {
+      background: rgb(228, 120, 49);
+      padding: 1em;
+      box-sizing: border-box;
+      outline: 2px solid white;
+    }
+    .container {
+      max-width: 75em;
+      margin: 48px auto;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <section class='container'>
+    <h1> Columns </h1>
+    <div class='col-row col-fluid'>
+      <div class='col-1'></div>
+      <div class='col-11'></div>
+      <div class='col-2'></div>
+      <div class='col-10'></div>
+      <div class='col-3'></div>
+      <div class='col-9'></div>
+      <div class='col-4'></div>
+      <div class='col-8'></div>
+      <div class='col-5'></div>
+      <div class='col-7'></div>
+      <div class='col-6'></div>
+      <div class='col-6'></div>
+      <div class='col-7'></div>
+      <div class='col-5'></div>
+      <div class='col-8'></div>
+      <div class='col-4'></div>
+      <div class='col-9'></div>
+      <div class='col-3'></div>
+      <div class='col-10'></div>
+      <div class='col-2'></div>
+      <div class='col-11'></div>
+      <div class='col-1'></div>
+    </div>
+  </section>
+  <section class='container'>
+    <h1> Responsive </h1>
+    <div class='col-row col-fluid'>
+      <div class='lg=col-1   md=col-11 sm=col-6 xs=col-1'></div>
+      <div class='lg=col-11  md=col-1  sm=col-6 xs=col-11'></div>
+      <div class='lg=col-2   md=col-10 sm=col-6 xs=col-2'></div>
+      <div class='lg=col-10  md=col-2  sm=col-6 xs=col-10'></div>
+      <div class='lg=col-3   md=col-9  sm=col-6 xs=col-3'></div>
+      <div class='lg=col-9   md=col-3  sm=col-6 xs=col-9'></div>
+      <div class='lg=col-4   md=col-8  sm=col-6 xs=col-4'></div>
+      <div class='lg=col-8   md=col-4  sm=col-6 xs=col-8'></div>
+      <div class='lg=col-5   md=col-7  sm=col-6 xs=col-5'></div>
+      <div class='lg=col-7   md=col-5  sm=col-6 xs=col-7'></div>
+      <div class='lg=col-6   md=col-6  sm=col-6 xs=col-6'></div>
+      <div class='lg=col-6   md=col-6  sm=col-6 xs=col-6'></div>
+    </div>
+  </section>
+  <section class='container'>
+    <h1> Break points </h1>
+    <div class='col-row'>
+      <div class='lg=col-1   md=col-11 sm=col-6 xs=col-1'></div>
+      <div class='lg=col-11  md=col-1  sm=col-6 xs=col-11'></div>
+      <div class='lg=col-2   md=col-10 sm=col-6 xs=col-2'></div>
+      <div class='lg=col-10  md=col-2  sm=col-6 xs=col-10'></div>
+      <div class='lg=col-3   md=col-9  sm=col-6 xs=col-3'></div>
+      <div class='lg=col-9   md=col-3  sm=col-6 xs=col-9'></div>
+      <div class='lg=col-4   md=col-8  sm=col-6 xs=col-4'></div>
+      <div class='lg=col-8   md=col-4  sm=col-6 xs=col-8'></div>
+      <div class='lg=col-5   md=col-7  sm=col-6 xs=col-5'></div>
+      <div class='lg=col-7   md=col-5  sm=col-6 xs=col-7'></div>
+      <div class='lg=col-6   md=col-6  sm=col-6 xs=col-6'></div>
+      <div class='lg=col-6   md=col-6  sm=col-6 xs=col-6'></div>
+    </div>
+  </section>
+  <section class='container'>
+    <h1> Alignments </h1>
+    <div class='col-row col-fluid'>
+      <div class='col-4' style='height: 400px'></div>
+      <div class='col-2 col-top'></div>
+      <div class='col-2 col-center'></div>
+      <div class='col-2 col-bottom'></div>
+      <div class='col-2 col-stretch'></div>
+    </div>
+  </section>
+  <section class='container'>
+    <h1> Nesting </h1>
+    <div class='col-row col-fluid'>
+      <div class='md=col-4 col-12'>
+        <div class='col-row col-fluid'>
+          <div class='col-6'></div>
+          <div class='col-6'></div>
+          <div class='col-3'></div>
+          <div class='col-3'></div>
+          <div class='col-3'></div>
+          <div class='col-3'></div>
+          <div class='col-12'></div>
+        </div>
+      </div>
+      <div class='md=col-8 col-12'>
+        <div class='col-row col-fluid'>
+          <div class='col-6'>
+            <div class='col-row col-fluid'>
+              <div class='col-4'></div>
+              <div class='col-4'></div>
+              <div class='col-4'></div>
+            </div>
+          </div>
+          <div class='col-6'>
+            <div class='col-row col-fluid'>
+              <div class='col-8'></div>
+              <div class='col-4'></div>
+            </div>
+          </div>
+          <div class='col-6'>
+            <div class='col-row col-fluid'>
+              <div class='col-12'></div>
+            </div>
+          </div>
+          <div class='col-6'>
+            <div class='col-row col-fluid'>
+              <div class='col-2'></div>
+              <div class='col-8'></div>
+              <div class='col-2'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
