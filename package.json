@@ -1,11 +1,14 @@
 {
   "name": "siple-columns",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple 12-column framework utalizing CSS grid.",
   "main": "src/simple.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Arron Hunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arronhunt/simple-columns/issues"
+  }
 }

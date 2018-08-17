@@ -26,10 +26,17 @@ A simple 12-column framework utalizing CSS grid, built with a focus on keeping t
 
 ## Usage 
 
+**Container**
+
 Class | Usage | Accepts modifiers
 ----|----|----
 `.col-row` | Container for your columns, handles the grid | No
 `.col-fluid` | Used in addition to `.col-row`, this tells the row not to break at breakpoints | No
+
+**Columns**
+
+Class | Usage | Accepts modifiers
+----|----|----
 `.col-{n}` | Spans your column across `n` number of columns. Max of 12 | Yes
 `.col-top` | Aligns the column to the top of the row | Yes
 `.col-center` | Aligns the column to the center of the row | Yes
